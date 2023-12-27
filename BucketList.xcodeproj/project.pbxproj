@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042CD0BE2B31CDF700015B4B /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CD0BD2B31CDF700015B4B /* ContentView-ViewModel.swift */; };
+		042CD0C02B31CE3200015B4B /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CD0BF2B31CE3200015B4B /* FileManager-DocumentsDirectory.swift */; };
+		042EC1712B3C8311006BE736 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EC1702B3C8311006BE736 /* ListView.swift */; };
+		042EC1732B3C99DC006BE736 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EC1722B3C99DC006BE736 /* MapView.swift */; };
+		0439E56B2B276B8C006935BF /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439E56A2B276B8C006935BF /* EditView.swift */; };
+		0439E56D2B276BC9006935BF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439E56C2B276BC9006935BF /* Result.swift */; };
 		04C0F5932B10902B00583EC9 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0F5922B10902B00583EC9 /* BucketListApp.swift */; };
 		04C0F5952B10902B00583EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0F5942B10902B00583EC9 /* ContentView.swift */; };
 		04C0F5972B10902E00583EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0F5962B10902E00583EC9 /* Assets.xcassets */; };
 		04C0F59A2B10902E00583EC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0F5992B10902E00583EC9 /* Preview Assets.xcassets */; };
+		04C0F5A22B10984700583EC9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0F5A12B10984700583EC9 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042332CC2B332AEB00DCDF09 /* artifacts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = artifacts; path = ../../artifacts; sourceTree = "<group>"; };
+		042332CD2B332B0400DCDF09 /* MapboxCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MapboxCommon.xcframework; path = ../../artifacts/MapboxCommon.xcframework; sourceTree = "<group>"; };
+		042332D12B332B1400DCDF09 /* MapboxCoreMaps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MapboxCoreMaps.xcframework; path = ../../artifacts/MapboxCoreMaps.xcframework; sourceTree = "<group>"; };
+		042332D42B332B2200DCDF09 /* MapboxMaps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MapboxMaps.xcframework; path = ../../artifacts/MapboxMaps.xcframework; sourceTree = "<group>"; };
+		042332D72B332B2D00DCDF09 /* Turf.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Turf.xcframework; path = ../../artifacts/Turf.xcframework; sourceTree = "<group>"; };
+		042CD0BD2B31CDF700015B4B /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		042CD0BF2B31CE3200015B4B /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		042EC1702B3C8311006BE736 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		042EC1722B3C99DC006BE736 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		0439E56A2B276B8C006935BF /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		0439E56C2B276BC9006935BF /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		04C0F58F2B10902B00583EC9 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0F5922B10902B00583EC9 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		04C0F5942B10902B00583EC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04C0F5962B10902E00583EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C0F5992B10902E00583EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04C0F5A12B10984700583EC9 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,11 +51,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042332CB2B332AEB00DCDF09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				042332D72B332B2D00DCDF09 /* Turf.xcframework */,
+				042332D42B332B2200DCDF09 /* MapboxMaps.xcframework */,
+				042332D12B332B1400DCDF09 /* MapboxCoreMaps.xcframework */,
+				042332CD2B332B0400DCDF09 /* MapboxCommon.xcframework */,
+				042332CC2B332AEB00DCDF09 /* artifacts */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04C0F5862B10902B00583EC9 = {
 			isa = PBXGroup;
 			children = (
 				04C0F5912B10902B00583EC9 /* BucketList */,
 				04C0F5902B10902B00583EC9 /* Products */,
+				042332CB2B332AEB00DCDF09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +85,13 @@
 			children = (
 				04C0F5922B10902B00583EC9 /* BucketListApp.swift */,
 				04C0F5942B10902B00583EC9 /* ContentView.swift */,
+				042EC1702B3C8311006BE736 /* ListView.swift */,
+				042EC1722B3C99DC006BE736 /* MapView.swift */,
+				0439E56A2B276B8C006935BF /* EditView.swift */,
+				042CD0BF2B31CE3200015B4B /* FileManager-DocumentsDirectory.swift */,
+				0439E56C2B276BC9006935BF /* Result.swift */,
+				04C0F5A12B10984700583EC9 /* Location.swift */,
+				042CD0BD2B31CDF700015B4B /* ContentView-ViewModel.swift */,
 				04C0F5962B10902E00583EC9 /* Assets.xcassets */,
 				04C0F5982B10902E00583EC9 /* Preview Content */,
 			);
@@ -111,6 +150,9 @@
 				Base,
 			);
 			mainGroup = 04C0F5862B10902B00583EC9;
+			packageReferences = (
+				042332DA2B3345B800DCDF09 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			productRefGroup = 04C0F5902B10902B00583EC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042EC1712B3C8311006BE736 /* ListView.swift in Sources */,
 				04C0F5952B10902B00583EC9 /* ContentView.swift in Sources */,
+				042CD0C02B31CE3200015B4B /* FileManager-DocumentsDirectory.swift in Sources */,
+				042CD0BE2B31CDF700015B4B /* ContentView-ViewModel.swift in Sources */,
+				0439E56D2B276BC9006935BF /* Result.swift in Sources */,
+				04C0F5A22B10984700583EC9 /* Location.swift in Sources */,
+				0439E56B2B276B8C006935BF /* EditView.swift in Sources */,
+				042EC1732B3C99DC006BE736 /* MapView.swift in Sources */,
 				04C0F5932B10902B00583EC9 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +323,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +353,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +395,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		042332DA2B3345B800DCDF09 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 04C0F5872B10902B00583EC9 /* Project object */;
 }

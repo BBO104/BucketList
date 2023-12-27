@@ -39,7 +39,7 @@ extension ContentView{
      }
      
      func addLocation() {
-         let newLocation = Location(id: UUID(), name: "New location", description: "", latitude: mapRegion.center.latitude, longitude: mapRegion.center.longitude)
+         let newLocation = Location(id: UUID(), name: "New location", description: "", type: "Other", latitude: mapRegion.center.latitude, longitude: mapRegion.center.longitude)
          locations.append(newLocation)
          save()
      }
@@ -52,7 +52,9 @@ extension ContentView{
          }
 
      }
-     
+     func deleteItems(at offsets: IndexSet) {
+         locations.remove(atOffsets: offsets)
+     }
      func authenticate() {
          let context = LAContext()
          var error: NSError?
